@@ -1,4 +1,5 @@
 # Vue-Test
+This is a small frontend project created to display data coming from the backend. - https://github.com/stanvlv/case-study-backend
 
 ## Project setup
 ```
