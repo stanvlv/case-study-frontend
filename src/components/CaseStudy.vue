@@ -102,7 +102,7 @@ export default {
       try {
         // Attention: The backend needs to be adjusted to accept query parameters
         const response = await fetch(
-          `http://localhost/case-study/?city=${this.selectedCity}&country=${this.selectedCountry}`
+          `http://localhost/case-study/filter?city=${this.selectedCity}&country=${this.selectedCountry}`
         );
         if (!response.ok) {
           throw new Error("Something went wrong! Couldn't fetch data.");
